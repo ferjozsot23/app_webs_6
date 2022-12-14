@@ -1,0 +1,46 @@
+body {
+    font-family: "Helvetica";
+    font-style: italic;
+}
+
+p {
+    color: #00ff00;
+    font-size: 16px;
+}
+
+.loco-azul-class {
+    color: #1e00ff;
+    font-size: 16px;
+}
+
+.miestilo-class {
+    color: #ff0000;
+    font-size: 26px;
+}
+
+/*#miestilo {
+    color: #ff2f00;
+    font-size: 16px;
+}*/
+
+div {
+    width: 100px;
+    border-width: 1px;
+    border-style: dotted;
+    border-color: red;
+    display: inline;
+
+    text-align: center;
+}
+
+#segunda {
+    border-radius: 5px;
+    display: block;
+}
+
+#tercera {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    width: 25px;
+    background-color: #fff;
+}
