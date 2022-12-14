@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="css/style.css">
     <title>Tienda Comic</title>
 </head>
@@ -13,22 +17,25 @@
     <main>
         <header>
             <div class="encabezado">
-
+                <div>
+                    <i class="bi bi-instagram"></i>
+                </div>
                 <img id="logo" src="https://img.freepik.com/free-vector/retro-comic-text-effect_79603-1889.jpg"
                     alt="logo">
 
 
                 <span>ComicCON</span>
-
-                <div id="login">
-                    <form action="login.php" method="post">
-                        <span>Login</span>
-                        <label for="usuario">Usuario</label>
-                        <input type="text" name="usuario" id="usuario">
-                        <label for="password">Contraseña</label>
-                        <input type="password" name="password" id="password">
-                        <input type="submit" value="Iniciar Sesión">
-                    </form>
+                <div>
+                    <div id="login">
+                        <form action="login.php" method="post">
+                            <span>Login</span>
+                            <label for="usuario">Usuario</label>
+                            <input type="text" name="usuario" id="usuario">
+                            <label for="password">Contraseña</label>
+                            <input type="password" name="password" id="password">
+                            <input type="submit" value="Iniciar Sesión">
+                        </form>
+                    </div>
                 </div>
 
             </div>
@@ -45,6 +52,24 @@
 
 
         <section>
+            <h1>Recomendado</h1>
+            <i class="bi bi-instagram"></i>
+            <div class="card">
+                <div class="imagen-superheroe"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Batman_%28black_background%29.jpg/640px-Batman_%28black_background%29.jpg"
+                        alt="Batman">
+                </div>
+
+                <div class="information">
+                    <div class="titulo-item">Batman</div>
+                    <div class="no-disponible">Disponible</div>
+                    <div>
+                        <div class="precio-anterior">145$</div>
+                        <div>144.99</div>
+                    </div>
+                    <button class="comprar-boton">Comprar</button>
+                </div>
+            </div>
 
             <div class="card">
                 <div class="imagen-superheroe"><img
@@ -59,10 +84,29 @@
                         <div class="precio-anterior">145$</div>
                         <div>144.99</div>
                     </div>
-                    <button>Comprar</button>
+                    <button class="comprar-boton">Comprar</button>
                 </div>
             </div>
 
+            <div class="card">
+                <div class="imagen-superheroe"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Batman_%28black_background%29.jpg/640px-Batman_%28black_background%29.jpg"
+                        alt="Batman">
+                </div>
+
+                <div class="information">
+                    <div class="titulo-item">Batman</div>
+                    <div class="no-disponible">Disponible</div>
+                    <div>
+                        <div class="precio-anterior">145$</div>
+                        <div>144.99</div>
+                    </div>
+                    <button class="comprar-boton">Comprar</button>
+                </div>
+            </div>
+
+            <i class="bi bi-instagram"></i>
+            <i class="glyphicon glyphicon-envelope"></i>
 
 
         </section>

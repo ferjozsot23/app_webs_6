@@ -1,5 +1,4 @@
 * {
-    border: 1px solid red;
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 body {
@@ -51,6 +50,8 @@ nav ul li a {
     border: 1px solid #aaaaaa;
     width: 250px;
     text-align: center;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .card .imagen-superheroe img {
@@ -62,4 +63,18 @@ nav ul li a {
     font-family: Tahoma;
     font-weight: bold;
     padding-bottom: 10px;
+}
+.precio-anterior {
+    text-decoration: line-through;
+    color: #f00;
+}
+
+.comprar-boton {
+    background-color: #f00;
+    color: #fff;
+}
+
+/*SECTION*/
+section {
+    text-align: center;
 }
