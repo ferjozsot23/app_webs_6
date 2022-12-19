@@ -1,0 +1,14 @@
+div {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    padding: 2px 5px;
+    color: aliceblue;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
